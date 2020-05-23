@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "CTA", 
+  "description": "Contact Tracing Applicaton",  
+  "permissions": [
+    "tabs",
+    "cookies",
+     "http://*/*", 
+     "https://*/*"    
+  ],
+  "icons":
+  {
+    "16": "images/cta-16.png", 
+    "48": "images/cta-48.png",
+    "128": "images/cta-128.png"
+  },
+  "browser_action":
+  {
+    "default_icon": "images/cta-128.png",
+    "default_popup": "popup.html"
+  },  
+  "background": {
+        "scripts": [
+            "background.js"
+        ]
+  }
+}

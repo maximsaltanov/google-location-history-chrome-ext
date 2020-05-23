@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="popup.js"></script>
+    <style>
+        body {
+            background-color: #2b4d76;
+            color: white;
+            font-size: 14px;
+        }
+
+        button {
+            border: none;
+            border-radius: 10px;
+            background: white;
+            color: #2b4d76;
+            padding: 10px;
+            width: 100px;
+            height: 40px;
+        }
+
+            button:hover {
+                cursor: pointer;
+            }
+
+            #main-container {
+                text-align: center;
+                padding: 10px;
+                width: 300px;
+            }
+        
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <p>
+            Dot2Dot is a software tool to help health authorities trace and isolate people carrying an
+            infectious disease.
+        </p>
+        <div id="login-container">
+            <p>
+                Please sign in to your Google Account
+            </p>
+            <button id="btnLogin" name="btnLogin">Sign In</button>
+        </div>
+        <div id="send-container">
+            <p>
+                Do you agree to send your Google Location History for us?
+            </p>
+            <button id="btnSend" name="btnSend">Send</button>
+        </div>
+    </div>
+</body>
+</html>
